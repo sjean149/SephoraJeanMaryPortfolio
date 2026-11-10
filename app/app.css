@@ -5,11 +5,23 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+html {
+  color-scheme: dark;
+}
+
+/* Smoothly animate jumps to #anchors, unless the visitor asked for less motion */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-slate-950 text-white;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+/* Leave room for the sticky navbar so it doesn't cover section headings */
+[id] {
+  scroll-margin-top: 5rem;
 }

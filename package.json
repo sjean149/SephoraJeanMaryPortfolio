@@ -15,7 +15,7 @@
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router": "^8.5.0",
-    "react-router-dom": "^7.18.4"
+    "tech-stack-icons": "^3.7.1"
   },
   "devDependencies": {
     "@react-router/dev": "^8.5.0",
