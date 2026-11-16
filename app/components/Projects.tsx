@@ -1,5 +1,6 @@
 import BibleLingo from "./assets/BibleLingoLandscape.webp";
 import EaglesTemple from "./assets/eaglestemplehome.webp";
+import NursePortfolio from "./assets/NursePortfolio.webp";
 
 type Project = {
   tag: string;
@@ -34,14 +35,14 @@ const projects: Project[] = [
     live: "https://biblelingo-1.onrender.com/",
   },
   {
-    tag: "Portfolio WebApp",
-    title: "Nurse portfolio for client",
+    tag: "Full-Stack App",
+    title: "Nurse Portfolio",
     description:
-      "An Android app and web app that helps people learn French, Spanish, or English through Bible-based grammar and vocabulary lessons and by reading the Bible.",
-    image: BibleLingo,
-    imageAlt: "Screenshot of the Bible language learning app",
-    github: "https://github.com/sjean149/BibleLingo.git", // add the repo URL
-    live: "https://biblelingo-1.onrender.com/",
+      "A full-stack portfolio for a registered nurse, built with React, Express, and PostgreSQL. Work history is served from a REST API backed by Sequelize models, and the contact form saves messages to the database and sends email notifications. Deployed on Render as a static site, web service, and managed Postgres database.",
+    image: NursePortfolio,
+    imageAlt: "Nurse Portfolio homepage with a hero section, skills, and contact call-to-action",
+    github: "https://github.com/sjean149/NursePortfolio",
+    live: "https://nurse-portfolio-client.onrender.com",
   },
 ];
 

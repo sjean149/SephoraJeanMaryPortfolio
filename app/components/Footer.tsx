@@ -41,9 +41,6 @@ export function Footer() {
           })}
         </div>
 
-        <p className="text-sm text-slate-500">
-          © {new Date().getFullYear()} Sephora Jean-Mary
-        </p>
       </div>
     </footer>
   );
