@@ -41,8 +41,7 @@ export function About() {
             </p>
 
             <p>
-              Through projects like Eagles Temple Church App, PetTendr, and Tech
-              Blog, I've worked with technologies including React, JavaScript,
+              Through projects like Eagles Temple Church App, PetTendr, Bookstore, I've worked with technologies including React, JavaScript,
               Node.js, Express, MongoDB, and PostgreSQL to build applications
               with practical functionality.
             </p>

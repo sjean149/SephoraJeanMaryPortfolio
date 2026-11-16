@@ -14,8 +14,8 @@ const contactInfo = [
     value: "github.com/sjean149",
     href: "https://github.com/sjean149",
   },
-  // To show your phone number, add:
-  // { label: "Phone", value: "(786) 285-0671", href: "tel:+17862850671" },
+
+ { label: "Phone", value: "(786) 285-0671", href: "tel:+17862850671" },
 ];
 
 export function Footer() {
@@ -24,7 +24,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-12">
         <h2 className="text-2xl font-bold text-white">Contact</h2>
 
-        <div className="grid grid-cols-1 gap-4 py-6 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 py-6 md:grid-cols-4">
           {contactInfo.map((contact) => {
             const isExternal = contact.href.startsWith("http");
             return (

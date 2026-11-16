@@ -1,5 +1,6 @@
 import selfie from "./assets/selfie.jpg";
 
+
 export function Hero() {
   return (
     <section className="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-10 px-6 py-16 md:flex-row md:px-10">
@@ -25,9 +26,8 @@ export function Hero() {
             View Work
           </a>
 
-          {/* Put your PDF at public/resume.pdf */}
           <a
-            href="/resume.pdf"
+            href="../../resume/Sephora_Jean-Mary_Software_Developer.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full border border-slate-600 px-6 py-3 font-semibold text-white transition hover:bg-slate-800"
